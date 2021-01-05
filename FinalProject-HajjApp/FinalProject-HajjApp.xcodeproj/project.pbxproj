@@ -10,10 +10,12 @@
 		3D31830D25A399C90017F64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31830C25A399C90017F64B /* AppDelegate.swift */; };
 		3D31830F25A399C90017F64B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31830E25A399C90017F64B /* SceneDelegate.swift */; };
 		3D31831125A399C90017F64B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31831025A399C90017F64B /* ViewController.swift */; };
-		3D31831425A399C90017F64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31831225A399C90017F64B /* Main.storyboard */; };
+		3D31831425A399C90017F64B /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31831225A399C90017F64B /* TabBar.storyboard */; };
 		3D31831625A399CD0017F64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D31831525A399CD0017F64B /* Assets.xcassets */; };
 		3D31831925A399CD0017F64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31831725A399CD0017F64B /* LaunchScreen.storyboard */; };
 		3D31832225A39CF10017F64B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31832125A39CF10017F64B /* Extensions.swift */; };
+		3DE697F025A46FA4002741BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE697EF25A46FA4002741BC /* Main.storyboard */; };
+		3DE697F325A479EB002741BC /* HajjLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE697F225A479EB002741BC /* HajjLoginViewController.swift */; };
 		79E0BF5A25A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */; };
 		79E0BF5D25A3C44D001C1A4D /* HajjInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -23,11 +25,13 @@
 		3D31830C25A399C90017F64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D31830E25A399C90017F64B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3D31831025A399C90017F64B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D31831325A399C90017F64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D31831325A399C90017F64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabBar.storyboard; sourceTree = "<group>"; };
 		3D31831525A399CD0017F64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D31831825A399CD0017F64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D31831A25A399CD0017F64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D31832125A39CF10017F64B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3DE697EF25A46FA4002741BC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3DE697F225A479EB002741BC /* HajjLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjLoginViewController.swift; sourceTree = "<group>"; };
 		79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HajjInfoStoryboard.storyboard; sourceTree = "<group>"; };
 		79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,9 +70,11 @@
 				3D31830C25A399C90017F64B /* AppDelegate.swift */,
 				3D31830E25A399C90017F64B /* SceneDelegate.swift */,
 				3D31831025A399C90017F64B /* ViewController.swift */,
-				3D31831225A399C90017F64B /* Main.storyboard */,
+				3D31831225A399C90017F64B /* TabBar.storyboard */,
 				79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */,
 				79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */,
+				3DE697EF25A46FA4002741BC /* Main.storyboard */,
+				3DE697F225A479EB002741BC /* HajjLoginViewController.swift */,
 				3D31831525A399CD0017F64B /* Assets.xcassets */,
 				3D31831725A399CD0017F64B /* LaunchScreen.storyboard */,
 				3D31831A25A399CD0017F64B /* Info.plist */,
@@ -136,7 +142,8 @@
 				3D31831925A399CD0017F64B /* LaunchScreen.storyboard in Resources */,
 				3D31831625A399CD0017F64B /* Assets.xcassets in Resources */,
 				79E0BF5A25A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard in Resources */,
-				3D31831425A399C90017F64B /* Main.storyboard in Resources */,
+				3DE697F025A46FA4002741BC /* Main.storyboard in Resources */,
+				3D31831425A399C90017F64B /* TabBar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +157,7 @@
 				3D31831125A399C90017F64B /* ViewController.swift in Sources */,
 				3D31830D25A399C90017F64B /* AppDelegate.swift in Sources */,
 				3D31830F25A399C90017F64B /* SceneDelegate.swift in Sources */,
+				3DE697F325A479EB002741BC /* HajjLoginViewController.swift in Sources */,
 				3D31832225A39CF10017F64B /* Extensions.swift in Sources */,
 				79E0BF5D25A3C44D001C1A4D /* HajjInfoViewController.swift in Sources */,
 			);
@@ -158,12 +166,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3D31831225A399C90017F64B /* Main.storyboard */ = {
+		3D31831225A399C90017F64B /* TabBar.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3D31831325A399C90017F64B /* Base */,
 			);
-			name = Main.storyboard;
+			name = TabBar.storyboard;
 			sourceTree = "<group>";
 		};
 		3D31831725A399CD0017F64B /* LaunchScreen.storyboard */ = {
