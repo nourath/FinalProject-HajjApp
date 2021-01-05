@@ -14,6 +14,8 @@
 		3D31831625A399CD0017F64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D31831525A399CD0017F64B /* Assets.xcassets */; };
 		3D31831925A399CD0017F64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31831725A399CD0017F64B /* LaunchScreen.storyboard */; };
 		3D31832225A39CF10017F64B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31832125A39CF10017F64B /* Extensions.swift */; };
+		79E0BF5A25A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */; };
+		79E0BF5D25A3C44D001C1A4D /* HajjInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3D31831825A399CD0017F64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D31831A25A399CD0017F64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D31832125A39CF10017F64B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HajjInfoStoryboard.storyboard; sourceTree = "<group>"; };
+		79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3D31830E25A399C90017F64B /* SceneDelegate.swift */,
 				3D31831025A399C90017F64B /* ViewController.swift */,
 				3D31831225A399C90017F64B /* Main.storyboard */,
+				79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */,
+				79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */,
 				3D31831525A399CD0017F64B /* Assets.xcassets */,
 				3D31831725A399CD0017F64B /* LaunchScreen.storyboard */,
 				3D31831A25A399CD0017F64B /* Info.plist */,
@@ -129,6 +135,7 @@
 			files = (
 				3D31831925A399CD0017F64B /* LaunchScreen.storyboard in Resources */,
 				3D31831625A399CD0017F64B /* Assets.xcassets in Resources */,
+				79E0BF5A25A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard in Resources */,
 				3D31831425A399C90017F64B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 				3D31830D25A399C90017F64B /* AppDelegate.swift in Sources */,
 				3D31830F25A399C90017F64B /* SceneDelegate.swift in Sources */,
 				3D31832225A39CF10017F64B /* Extensions.swift in Sources */,
+				79E0BF5D25A3C44D001C1A4D /* HajjInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
