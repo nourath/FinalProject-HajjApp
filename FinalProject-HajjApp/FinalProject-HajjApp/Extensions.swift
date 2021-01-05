@@ -19,7 +19,7 @@ class DesignableView: UIView {
             setGradient(topGradientColor: topGradientColor, bottomGradientColor: bottomGradientColor)
         }
     }
-    
+    //hi
     @IBInspectable
     var bottomGradientColor: UIColor? {
         didSet {
@@ -334,6 +334,15 @@ extension String {
             return nil
         }
         return self[indexPosition]
+    }
+}
+
+extension UIView {
+   func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+        let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        layer.mask = mask
     }
 }
 
