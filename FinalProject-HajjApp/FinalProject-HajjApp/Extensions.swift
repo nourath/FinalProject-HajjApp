@@ -19,7 +19,7 @@ class DesignableView: UIView {
             setGradient(topGradientColor: topGradientColor, bottomGradientColor: bottomGradientColor)
         }
     }
-    
+    //hi
     @IBInspectable
     var bottomGradientColor: UIColor? {
         didSet {
