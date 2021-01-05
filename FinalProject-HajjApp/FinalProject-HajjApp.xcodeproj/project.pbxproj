@@ -10,6 +10,11 @@
 		3D1F815525A49EBD000C31E4 /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F815425A49EBD000C31E4 /* FirebaseConstants.swift */; };
 		3D1F815825A49F60000C31E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F815725A49F60000C31E4 /* GoogleService-Info.plist */; };
 		3D1F815B25A49FB6000C31E4 /* Hajj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F815A25A49FB6000C31E4 /* Hajj.swift */; };
+		3D1F818D25A4D7D4000C31E4 /* CrewAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F818C25A4D7D4000C31E4 /* CrewAuthentication.storyboard */; };
+		3D1F819025A4D80D000C31E4 /* CrewLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F818F25A4D80D000C31E4 /* CrewLoginViewController.swift */; };
+		3D1F819325A4DA1F000C31E4 /* CrewTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F819225A4DA1F000C31E4 /* CrewTabBar.storyboard */; };
+		3D1F819625A4DA70000C31E4 /* CrewQRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F819525A4DA70000C31E4 /* CrewQRCodeScannerViewController.swift */; };
+		3D1F819C25A4E8DE000C31E4 /* CrewScannedHajjDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F819B25A4E8DE000C31E4 /* CrewScannedHajjDetailsViewController.swift */; };
 		3D31830D25A399C90017F64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31830C25A399C90017F64B /* AppDelegate.swift */; };
 		3D31830F25A399C90017F64B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31830E25A399C90017F64B /* SceneDelegate.swift */; };
 		3D31831125A399C90017F64B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31831025A399C90017F64B /* ViewController.swift */; };
@@ -29,6 +34,11 @@
 		3D1F815425A49EBD000C31E4 /* FirebaseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
 		3D1F815725A49F60000C31E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3D1F815A25A49FB6000C31E4 /* Hajj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hajj.swift; sourceTree = "<group>"; };
+		3D1F818C25A4D7D4000C31E4 /* CrewAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CrewAuthentication.storyboard; sourceTree = "<group>"; };
+		3D1F818F25A4D80D000C31E4 /* CrewLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewLoginViewController.swift; sourceTree = "<group>"; };
+		3D1F819225A4DA1F000C31E4 /* CrewTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CrewTabBar.storyboard; sourceTree = "<group>"; };
+		3D1F819525A4DA70000C31E4 /* CrewQRCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewQRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		3D1F819B25A4E8DE000C31E4 /* CrewScannedHajjDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewScannedHajjDetailsViewController.swift; sourceTree = "<group>"; };
 		3D31830925A399C90017F64B /* FinalProject-HajjApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinalProject-HajjApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D31830C25A399C90017F64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D31830E25A399C90017F64B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +99,11 @@
 				79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */,
 				3DE697EF25A46FA4002741BC /* Main.storyboard */,
 				3DE697F225A479EB002741BC /* HajjLoginViewController.swift */,
+				3D1F818C25A4D7D4000C31E4 /* CrewAuthentication.storyboard */,
+				3D1F819225A4DA1F000C31E4 /* CrewTabBar.storyboard */,
+				3D1F819B25A4E8DE000C31E4 /* CrewScannedHajjDetailsViewController.swift */,
+				3D1F818F25A4D80D000C31E4 /* CrewLoginViewController.swift */,
+				3D1F819525A4DA70000C31E4 /* CrewQRCodeScannerViewController.swift */,
 				3D1F815425A49EBD000C31E4 /* FirebaseConstants.swift */,
 				3D31831525A399CD0017F64B /* Assets.xcassets */,
 				3D31831725A399CD0017F64B /* LaunchScreen.storyboard */,
@@ -175,7 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D31831925A399CD0017F64B /* LaunchScreen.storyboard in Resources */,
+				3D1F819325A4DA1F000C31E4 /* CrewTabBar.storyboard in Resources */,
 				3D31831625A399CD0017F64B /* Assets.xcassets in Resources */,
+				3D1F818D25A4D7D4000C31E4 /* CrewAuthentication.storyboard in Resources */,
 				79E0BF5A25A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard in Resources */,
 				3DE697F025A46FA4002741BC /* Main.storyboard in Resources */,
 				3D31831425A399C90017F64B /* TabBar.storyboard in Resources */,
@@ -234,10 +251,13 @@
 			files = (
 				3D31831125A399C90017F64B /* ViewController.swift in Sources */,
 				3D31830D25A399C90017F64B /* AppDelegate.swift in Sources */,
+				3D1F819025A4D80D000C31E4 /* CrewLoginViewController.swift in Sources */,
 				3D1F815B25A49FB6000C31E4 /* Hajj.swift in Sources */,
+				3D1F819625A4DA70000C31E4 /* CrewQRCodeScannerViewController.swift in Sources */,
 				3D31830F25A399C90017F64B /* SceneDelegate.swift in Sources */,
 				3DE697F325A479EB002741BC /* HajjLoginViewController.swift in Sources */,
 				3D31832225A39CF10017F64B /* Extensions.swift in Sources */,
+				3D1F819C25A4E8DE000C31E4 /* CrewScannedHajjDetailsViewController.swift in Sources */,
 				79E0BF5D25A3C44D001C1A4D /* HajjInfoViewController.swift in Sources */,
 				3D1F815525A49EBD000C31E4 /* FirebaseConstants.swift in Sources */,
 			);
@@ -390,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87823T5P42;
 				INFOPLIST_FILE = "FinalProject-HajjApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,6 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87823T5P42;
 				INFOPLIST_FILE = "FinalProject-HajjApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
