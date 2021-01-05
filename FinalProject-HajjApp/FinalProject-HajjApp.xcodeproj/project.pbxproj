@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1F815525A49EBD000C31E4 /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F815425A49EBD000C31E4 /* FirebaseConstants.swift */; };
+		3D1F815825A49F60000C31E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F815725A49F60000C31E4 /* GoogleService-Info.plist */; };
+		3D1F815B25A49FB6000C31E4 /* Hajj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F815A25A49FB6000C31E4 /* Hajj.swift */; };
 		3D31830D25A399C90017F64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31830C25A399C90017F64B /* AppDelegate.swift */; };
 		3D31830F25A399C90017F64B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31830E25A399C90017F64B /* SceneDelegate.swift */; };
 		3D31831125A399C90017F64B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31831025A399C90017F64B /* ViewController.swift */; };
@@ -18,9 +21,14 @@
 		3DE697F325A479EB002741BC /* HajjLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE697F225A479EB002741BC /* HajjLoginViewController.swift */; };
 		79E0BF5A25A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */; };
 		79E0BF5D25A3C44D001C1A4D /* HajjInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */; };
+		894BFEF6C77D66D51E1B338C /* Pods_FinalProject_HajjApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC1437F440907F30B8559BD /* Pods_FinalProject_HajjApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25E597CF0A1353C910755F76 /* Pods-FinalProject-HajjApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject-HajjApp.debug.xcconfig"; path = "Target Support Files/Pods-FinalProject-HajjApp/Pods-FinalProject-HajjApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1F815425A49EBD000C31E4 /* FirebaseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
+		3D1F815725A49F60000C31E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D1F815A25A49FB6000C31E4 /* Hajj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hajj.swift; sourceTree = "<group>"; };
 		3D31830925A399C90017F64B /* FinalProject-HajjApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinalProject-HajjApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D31830C25A399C90017F64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D31830E25A399C90017F64B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +42,8 @@
 		3DE697F225A479EB002741BC /* HajjLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjLoginViewController.swift; sourceTree = "<group>"; };
 		79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HajjInfoStoryboard.storyboard; sourceTree = "<group>"; };
 		79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjInfoViewController.swift; sourceTree = "<group>"; };
+		B7D257C3452A3FE29C3FBAFE /* Pods-FinalProject-HajjApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject-HajjApp.release.xcconfig"; path = "Target Support Files/Pods-FinalProject-HajjApp/Pods-FinalProject-HajjApp.release.xcconfig"; sourceTree = "<group>"; };
+		BFC1437F440907F30B8559BD /* Pods_FinalProject_HajjApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProject_HajjApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894BFEF6C77D66D51E1B338C /* Pods_FinalProject_HajjApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +63,8 @@
 			children = (
 				3D31830B25A399C90017F64B /* FinalProject-HajjApp */,
 				3D31830A25A399C90017F64B /* Products */,
+				7D5D1C5152BF2F45F1FD4105 /* Pods */,
+				E0C8D50BD45D0E3F00D40A0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,17 +82,37 @@
 				3D31832125A39CF10017F64B /* Extensions.swift */,
 				3D31830C25A399C90017F64B /* AppDelegate.swift */,
 				3D31830E25A399C90017F64B /* SceneDelegate.swift */,
+				3D1F815A25A49FB6000C31E4 /* Hajj.swift */,
 				3D31831025A399C90017F64B /* ViewController.swift */,
 				3D31831225A399C90017F64B /* TabBar.storyboard */,
 				79E0BF5925A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard */,
 				79E0BF5C25A3C44D001C1A4D /* HajjInfoViewController.swift */,
 				3DE697EF25A46FA4002741BC /* Main.storyboard */,
 				3DE697F225A479EB002741BC /* HajjLoginViewController.swift */,
+				3D1F815425A49EBD000C31E4 /* FirebaseConstants.swift */,
 				3D31831525A399CD0017F64B /* Assets.xcassets */,
 				3D31831725A399CD0017F64B /* LaunchScreen.storyboard */,
+				3D1F815725A49F60000C31E4 /* GoogleService-Info.plist */,
 				3D31831A25A399CD0017F64B /* Info.plist */,
 			);
 			path = "FinalProject-HajjApp";
+			sourceTree = "<group>";
+		};
+		7D5D1C5152BF2F45F1FD4105 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25E597CF0A1353C910755F76 /* Pods-FinalProject-HajjApp.debug.xcconfig */,
+				B7D257C3452A3FE29C3FBAFE /* Pods-FinalProject-HajjApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0C8D50BD45D0E3F00D40A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC1437F440907F30B8559BD /* Pods_FinalProject_HajjApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D31831D25A399CD0017F64B /* Build configuration list for PBXNativeTarget "FinalProject-HajjApp" */;
 			buildPhases = (
+				56A9D2F19B57891D3C42002F /* [CP] Check Pods Manifest.lock */,
 				3D31830525A399C90017F64B /* Sources */,
 				3D31830625A399C90017F64B /* Frameworks */,
 				3D31830725A399C90017F64B /* Resources */,
+				ACCA79BA668DE935EF6DACA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,10 +179,53 @@
 				79E0BF5A25A3C3E0001C1A4D /* HajjInfoStoryboard.storyboard in Resources */,
 				3DE697F025A46FA4002741BC /* Main.storyboard in Resources */,
 				3D31831425A399C90017F64B /* TabBar.storyboard in Resources */,
+				3D1F815825A49F60000C31E4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56A9D2F19B57891D3C42002F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinalProject-HajjApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACCA79BA668DE935EF6DACA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProject-HajjApp/Pods-FinalProject-HajjApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProject-HajjApp/Pods-FinalProject-HajjApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinalProject-HajjApp/Pods-FinalProject-HajjApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D31830525A399C90017F64B /* Sources */ = {
@@ -156,10 +234,12 @@
 			files = (
 				3D31831125A399C90017F64B /* ViewController.swift in Sources */,
 				3D31830D25A399C90017F64B /* AppDelegate.swift in Sources */,
+				3D1F815B25A49FB6000C31E4 /* Hajj.swift in Sources */,
 				3D31830F25A399C90017F64B /* SceneDelegate.swift in Sources */,
 				3DE697F325A479EB002741BC /* HajjLoginViewController.swift in Sources */,
 				3D31832225A39CF10017F64B /* Extensions.swift in Sources */,
 				79E0BF5D25A3C44D001C1A4D /* HajjInfoViewController.swift in Sources */,
+				3D1F815525A49EBD000C31E4 /* FirebaseConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +383,7 @@
 		};
 		3D31831E25A399CD0017F64B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E597CF0A1353C910755F76 /* Pods-FinalProject-HajjApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +403,7 @@
 		};
 		3D31831F25A399CD0017F64B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D257C3452A3FE29C3FBAFE /* Pods-FinalProject-HajjApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

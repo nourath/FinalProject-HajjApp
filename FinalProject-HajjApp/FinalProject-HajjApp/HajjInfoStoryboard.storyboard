@@ -576,17 +576,17 @@
                         <outlet property="additionalInfoView" destination="VKR-Ld-gPX" id="B48-xa-pZA"/>
                         <outlet property="barcodePressed" destination="frg-WX-0p4" id="czt-pj-9ma"/>
                         <outlet property="barcodeView" destination="frg-WX-0p4" id="xD4-xc-ecm"/>
+                        <outlet property="campaignLocation" destination="l2g-Br-4PV" id="M5D-vA-V8r"/>
+                        <outlet property="campaignName" destination="614-IX-YC2" id="kFF-zB-SAX"/>
                         <outlet property="campaignView" destination="irf-Yh-zyA" id="jPR-ef-WA2"/>
-                        <outlet property="compaignLocation" destination="l2g-Br-4PV" id="M5D-vA-V8r"/>
-                        <outlet property="compaignName" destination="614-IX-YC2" id="kFF-zB-SAX"/>
                         <outlet property="hajjAge" destination="jKt-54-xDX" id="JWJ-3x-4mA"/>
                         <outlet property="hajjBloodType" destination="EGj-67-zh4" id="loQ-Dl-act"/>
                         <outlet property="hajjChronicDiseases" destination="yj7-6M-ZQT" id="T5Z-R0-eF9"/>
                         <outlet property="hajjGender" destination="KjW-C5-umn" id="Wgv-yB-T9W"/>
-                        <outlet property="hajjLanguage" destination="B9H-H4-svC" id="qgJ-g6-gny"/>
+                        <outlet property="hajjLanguage" destination="yoP-3J-foH" id="tTd-cg-Fof"/>
                         <outlet property="hajjName" destination="ol2-77-K2g" id="IZm-34-QVw"/>
                         <outlet property="hajjNationality" destination="NdL-sy-TfN" id="OS2-qj-TAw"/>
-                        <outlet property="hajjOtherLanguge" destination="OGu-8g-yoY" id="lHS-Ov-ai1"/>
+                        <outlet property="hajjOtherLanguges" destination="OGu-8g-yoY" id="lHS-Ov-ai1"/>
                         <outlet property="hajjPermitNumber" destination="aQN-xe-sRe" id="VL2-l8-BIb"/>
                         <outlet property="hajjPhoneNumber" destination="wg8-hE-Diu" id="9Lw-nh-uFr"/>
                         <outlet property="hajjPic" destination="97J-Bg-hey" id="NGF-Zc-7fb"/>
